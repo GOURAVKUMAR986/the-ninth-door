@@ -11,7 +11,7 @@
 @media(max-width:760px){.wrap{width:calc(100% - 34px)}.topbar{height:68px}.hero{grid-template-columns:1fr;gap:42px}.copy{text-align:center}.copy h1{font-size:clamp(3.3rem,15vw,5rem)}.desc{margin:auto}.meta,.actions{justify-content:center}.rule{margin:24px auto}.coverbox{width:min(68%,285px);margin-bottom:10px}.coverlabel{right:-25px}.actions{display:grid;grid-template-columns:1fr}.btn{width:100%}.trustinner,.footinner{flex-direction:column;text-align:center}.hint{margin:auto}.eyebrow{font-size:.62rem}main{padding:50px 0 56px}}
 @media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto}}
 </style>
-<script src="config.js"></script>
+
 </head>
 <body>
 <header class="wrap topbar"><a class="brand" href="#top">THE BLACK VEIL<small>THE NINTH DOOR · BOOK ONE</small></a><a class="toplink" id="top-buy" href="#get-book">Official book store ↗</a></header>
@@ -19,6 +19,7 @@
 <section class="trust" id="about"><div class="wrap trustinner"><span><strong>Official author website</strong> · The Black Veil Trilogy</span><span>Digital purchase and download via marketplace</span><span>© 2026 Gourav Kumar</span></div></section>
 <footer class="footer"><div class="wrap footinner"><span>THE BLACK VEIL · THE NINTH DOOR</span><span>Some secrets should stay buried.</span></div></footer>
 <script>
-(function(){const cfg=window.BOOK_CONFIG||{};const url=typeof cfg.productUrl==='string'?cfg.productUrl.trim():'';const valid=/^https:\/\//i.test(url);const links=[document.getElementById('top-buy'),document.getElementById('buy-main')];const notice=document.getElementById('setup-notice');if(valid){links.forEach(a=>{a.href=url;a.target='_blank';a.rel='noopener noreferrer'});notice.classList.remove('show')}else{links.forEach(a=>a.addEventListener('click',e=>{e.preventDefault();notice.classList.add('show');notice.scrollIntoView({behavior:'smooth',block:'center'})}));document.querySelectorAll('.buy').forEach(a=>a.setAttribute('aria-label','Marketplace link needs configuration'))}})();
+(function(){const url='https://vrindahampers.qzz.io/product/?id=prod-mvg8e6j6&slug=the-ninth-door-book';const links=[document.getElementById('top-buy'),document.getElementById('buy-main')];const notice=document.getElementById('setup-notice');links.forEach(a=>{a.href=url;a.target='_blank';a.rel='noopener noreferrer'});notice.classList.remove('show')})();
 </script>
 </body></html>
+
